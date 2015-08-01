@@ -12,41 +12,11 @@ namespace ICMemory
 
 	public class SerialPortSetup
 	{
-		private string sPortName = string.Empty;
-
-		public string PortName
-		{
-			get { return sPortName; }
-			set { sPortName = value; }
-		}
-		private string sBaudRate = string.Empty;
-
-		public string BaudRate
-		{
-			get { return sBaudRate; }
-			set { sBaudRate = value; }
-		}
-		private string sParity = string.Empty;
-
-		public string Parity
-		{
-			get { return sParity; }
-			set { sParity = value; }
-		}
-		private string sStopBits = string.Empty;
-
-		public string StopBits
-		{
-			get { return sStopBits; }
-			set { sStopBits = value; }
-		}
-		private string sDataBits = string.Empty;
-
-		public string DataBits
-		{
-			get { return sDataBits; }
-			set { sDataBits = value; }
-		}
+		public string PortName { get; set; }
+		public string BaudRate { get; set; }
+		public string Parity { get; set; }
+		public string StopBits { get; set; }
+		public string DataBits { get; set; }
 
 		public SerialPortSetup()
 		{

@@ -29,12 +29,10 @@ namespace ICMemory
 
 		private void btnSetPort_Click(object sender, EventArgs e)
 		{
-			//if (!string.IsNullOrEmpty(this.cmboPort.Text))
-			//	this.oComm.PortName = this.cmboPort.Text;
-			//if (!string.IsNullOrEmpty(this.cmboBaud.Text)) 
-			//	this.oComm.BaudRate = this.cmboBaud.Text;
-			//this.sPortName = this.cmboPort.Text;
-			//this.sBaudRate = this.cmboBaud.Text;
+			if (!string.IsNullOrEmpty(this.cmboPort.Text))
+				this.oComm.PortName = this.cmboPort.Text;
+			if (!string.IsNullOrEmpty(this.cmboBaud.Text))
+				this.oComm.BaudRate = this.cmboBaud.Text;
 		}
 	}
 }
