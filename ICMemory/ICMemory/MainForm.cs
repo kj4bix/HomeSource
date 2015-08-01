@@ -450,7 +450,7 @@ namespace ICMemory
 						complete = true;
 					}
 				}
-				Thread.Sleep(500);
+				//Thread.Sleep(500);
 			}
 			return sResponse;
 		}
